@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>My Work - Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="box">
+          <div class="box1">
+            <a href="index.html">
+              <h1>
+                <img 
+                  src="img/logo.svg" 
+                  alt="MyWork"
+                  width="120px"
+                  height="36px">
+              </h1>
+            </a>
+          </div>
+          <div class="box2">
+            <nav>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                  <a href="">
+                    <img src="img/icon-instagram.png"
+                          alt="instagram"
+                          width="20px"
+                          height="20px">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <picture>
+        <source 
+          media="(max-width: 600px)" 
+          srcset="img/mainvisual-sp.jpg">
+        <img src="img/mainvisual-pc.jpg" alt="">
+      </picture>
+    </section>
+    <main>
+      <div class="container">
+        <section class="about" id="about">
+          <h2>About</h2>
+          <ul>
+            <li>Xxxxx Ashley</li>
+            <li>2th Floor xxxxx Building x-x-x Nishiazabu,</li>
+            <li>Minato-ku, Tokyo 106-0031 Japan</li>
+            <li>tel: 000-0000-0000</li>
+            <li>url: www.xxxxxx.jp</li>
+            <li>mail: xxx@xxxxxx.jp</li>
+            <li>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</li>
+          </ul>
+        </section>  
+        <section id="works">
+          <h2>Works</h2>
+          <div class="photo">
+            <img src="img/works1.jpg" alt="">
+            <img src="img/works2.jpg" alt="">
+            <img src="img/works3.jpg" alt="">
+            <img src="img/works4.jpg" alt="">
+            <img src="img/works5.jpg" alt="">
+            <img src="img/works6.jpg" alt="">
+          </div>
+        </section>
+        <section class="news" id="news">
+          <h2>News</h2>
+          <dl>
+            <dt>2020.XX.XX</dt>
+            <dd>デザイン雑誌「ＸＸＸＸＸＸＸVol.11」に掲載していただきました。</dd>
+            <dt>2020.XX.XX</dt>
+            <dd>XX月XX日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+            <dt>2020.XX.XX</dt>
+            <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+            <dt>2020.XX.XX</dt>
+            <dd>デザイン雑誌「ＸＸＸＸＸＸVol.10」に掲載していただきました。</dd>
+            <dt>2020.XX.XX</dt>
+            <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+          </dl>
+        </section>
+        <section class="contact" id="contact">
+          <h2>Contact</h2>
+          <form action="#" method="post">
+            <dl>
+              <dt><label for="name">NAME</label></dt>
+              <dd><input type="text" id="name" name="username" ></dd>
+              <dt><label for="email">E-mail</label></dt>
+              <dd><input type="text" id="email" name="email" ></dd>
+              <dt><label for="massage">MESSAGE</label></dt>
+              <dd><textarea name="massage" id="message" cols="30" rows="10"></textarea></dd>
+            </dl>
+            <div class="button">
+              <input type="botton" value="送信" class="btn">
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <small>&copy; 2020 My Work</small>
+    </footer>
+  </body>
+</html>
